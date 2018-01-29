@@ -1,5 +1,6 @@
 // IIFE, takes window as global object and jQuery as $
-(function (global, $) {
+// the semicolon prevents other libraries or files from running into Greetr
+;(function (global, $) {
     'use strict';
     
     // Create a new variable Greetr and assign with function constructor
